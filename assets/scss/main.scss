@@ -6,12 +6,7 @@ License: GNU General Public License v2 or later
 License URI: LICENSE
 */
 
-// Components
-@use 'components/social-media';
-
-// Base styles
-body {
-  margin: 0;
-  padding: 0;
-  font-family: system-ui, -apple-system, sans-serif;
-}
+// Import everything
+@use 'abstracts';
+@use 'base';
+@use 'components';

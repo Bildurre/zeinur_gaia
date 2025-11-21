@@ -22,11 +22,13 @@ define('Z_GAIA_URI', get_template_directory_uri());
  * Include helper files
  */
 require_once Z_GAIA_DIR . '/inc/social-media.php';
+require_once Z_GAIA_DIR . '/inc/colors-helper.php';
 
 /**
  * Include customizer files
  */
 require_once Z_GAIA_DIR . '/inc/customizer/sanitize.php';
+require_once Z_GAIA_DIR . '/inc/customizer/colors.php';
 require_once Z_GAIA_DIR . '/inc/customizer/social-media.php';
 
 /**

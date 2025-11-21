@@ -1,0 +1,110 @@
+@use '../abstracts' as *;
+
+// Smooth scrolling
+html {
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+// Base body styles
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $color-text;
+  background-color: $color-background;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-heading;
+  font-family: $font-family-heading;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+}
+
+h1 {
+  font-size: $font-size-5xl;
+}
+
+h2 {
+  font-size: $font-size-4xl;
+}
+
+h3 {
+  font-size: $font-size-3xl;
+}
+
+h4 {
+  font-size: $font-size-2xl;
+}
+
+h5 {
+  font-size: $font-size-xl;
+}
+
+h6 {
+  font-size: $font-size-lg;
+}
+
+// Links
+a {
+  color: $color-link;
+  transition: color $transition-fast;
+  
+  &:hover,
+  &:focus {
+    color: $color-link-hover;
+  }
+  
+  &:focus-visible {
+    outline: 2px solid $color-primary;
+    outline-offset: 2px;
+  }
+}
+
+// Paragraphs
+p {
+  margin-bottom: $spacing-md;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Horizontal rule
+hr {
+  border: 0;
+  border-top: 1px solid $color-border;
+  margin: $spacing-xl 0;
+}
+
+// Code
+code,
+pre {
+  font-family: $font-family-mono;
+  font-size: $font-size-sm;
+}
+
+code {
+  padding: 0.125rem 0.25rem;
+  background-color: $color-background-secondary;
+  border-radius: $border-radius-sm;
+}
+
+pre {
+  padding: $spacing-md;
+  background-color: $color-background-secondary;
+  border-radius: $border-radius-md;
+  overflow-x: auto;
+  
+  code {
+    padding: 0;
+    background-color: transparent;
+  }
+}

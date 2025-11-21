@@ -29,6 +29,25 @@ function z_gaia_customizer_social_media($wp_customize) {
     ),
   ));
   
+  // Icon Color Scheme Setting
+  $wp_customize->add_setting('z_gaia_social_icon_colors', array(
+    'default'           => 'brand',
+    'sanitize_callback' => 'z_gaia_sanitize_select',
+  ));
+  
+  $wp_customize->add_control('z_gaia_social_icon_colors', array(
+    'label'       => __('Icon Colors', 'z-gaia'),
+    'description' => __('Choose which color to use for social media icons', 'z-gaia'),
+    'section'     => 'z_gaia_social_media',
+    'type'        => 'select',
+    'choices'     => array(
+      'brand'     => __('Original Brand Colors', 'z-gaia'),
+      'primary'   => __('Theme Primary Color', 'z-gaia'),
+      'secondary' => __('Theme Secondary Color', 'z-gaia'),
+      'tertiary'  => __('Theme Tertiary Color', 'z-gaia'),
+    ),
+  ));
+  
   // Social Media URLs
   $social_networks = array(
     'facebook'  => __('Facebook', 'z-gaia'),

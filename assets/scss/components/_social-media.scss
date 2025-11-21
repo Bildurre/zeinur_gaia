@@ -1,3 +1,5 @@
+@use '../abstracts' as *;
+
 // Social Media Component
 // Styles for social media icons with different display formats
 
@@ -12,7 +14,7 @@
     gap: 0.5rem;
     text-decoration: none;
     color: currentColor;
-    transition: all 0.3s ease;
+    transition: all $transition-base;
     
     &:hover {
       opacity: 0.7;
@@ -33,132 +35,162 @@
   }
   
   &__label {
-    font-size: 0.875rem;
+    font-size: $font-size-sm;
   }
   
-  // Style variants
-  &--rounded {
-    .social-media__link {
-      .social-media__icon {
-        padding: 0.5rem;
-        background-color: currentColor;
-        color: white;
-        border-radius: 0.375rem;
-        width: 2.5rem;
-        height: 2.5rem;
-      }
-      
-      &--facebook .social-media__icon {
-        background-color: #1877F2;
-      }
-      
-      &--instagram .social-media__icon {
-        background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
-      }
-      
-      &--twitter .social-media__icon {
-        background-color: #000000;
-      }
-      
-      &--linkedin .social-media__icon {
-        background-color: #0A66C2;
-      }
-      
-      &--youtube .social-media__icon {
-        background-color: #FF0000;
-      }
-    }
-  }
-  
-  &--circle {
-    .social-media__link {
-      .social-media__icon {
-        padding: 0.5rem;
-        background-color: currentColor;
-        color: white;
-        border-radius: 50%;
-        width: 2.5rem;
-        height: 2.5rem;
-      }
-      
-      &--facebook .social-media__icon {
-        background-color: #1877F2;
-      }
-      
-      &--instagram .social-media__icon {
-        background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
-      }
-      
-      &--twitter .social-media__icon {
-        background-color: #000000;
-      }
-      
-      &--linkedin .social-media__icon {
-        background-color: #0A66C2;
-      }
-      
-      &--youtube .social-media__icon {
-        background-color: #FF0000;
-      }
-    }
-  }
-  
+  // Style variants - Brand Colors
+  &--rounded,
+  &--circle,
   &--square {
-    .social-media__link {
-      .social-media__icon {
-        padding: 0.5rem;
-        background-color: currentColor;
-        color: white;
-        width: 2.5rem;
-        height: 2.5rem;
+    &.social-media--brand-colors {
+      .social-media__link {
+        .social-media__icon {
+          padding: 0.5rem;
+          color: white;
+          width: 2.5rem;
+          height: 2.5rem;
+        }
+        
+        &--facebook .social-media__icon {
+          background-color: #1877F2;
+        }
+        
+        &--instagram .social-media__icon {
+          background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+        }
+        
+        &--twitter .social-media__icon {
+          background-color: #000000;
+        }
+        
+        &--linkedin .social-media__icon {
+          background-color: #0A66C2;
+        }
+        
+        &--youtube .social-media__icon {
+          background-color: #FF0000;
+        }
       }
-      
-      &--facebook .social-media__icon {
-        background-color: #1877F2;
+    }
+    
+    // Theme Primary Color
+    &.social-media--primary-colors {
+      .social-media__link {
+        .social-media__icon {
+          padding: 0.5rem;
+          background-color: $color-primary;
+          color: white;
+          width: 2.5rem;
+          height: 2.5rem;
+        }
       }
-      
-      &--instagram .social-media__icon {
-        background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF, #515BD4);
+    }
+    
+    // Theme Secondary Color
+    &.social-media--secondary-colors {
+      .social-media__link {
+        .social-media__icon {
+          padding: 0.5rem;
+          background-color: $color-secondary;
+          color: white;
+          width: 2.5rem;
+          height: 2.5rem;
+        }
       }
-      
-      &--twitter .social-media__icon {
-        background-color: #000000;
-      }
-      
-      &--linkedin .social-media__icon {
-        background-color: #0A66C2;
-      }
-      
-      &--youtube .social-media__icon {
-        background-color: #FF0000;
+    }
+    
+    // Theme Tertiary Color
+    &.social-media--tertiary-colors {
+      .social-media__link {
+        .social-media__icon {
+          padding: 0.5rem;
+          background-color: $color-tertiary;
+          color: white;
+          width: 2.5rem;
+          height: 2.5rem;
+        }
       }
     }
   }
   
+  // Rounded corners
+  &--rounded {
+    .social-media__icon {
+      border-radius: $border-radius-md;
+    }
+  }
+  
+  // Circle shape
+  &--circle {
+    .social-media__icon {
+      border-radius: $border-radius-full;
+    }
+  }
+  
+  // Square (no border radius needed)
+  &--square {
+    .social-media__icon {
+      border-radius: 0;
+    }
+  }
+  
+  // Minimal style
   &--minimal {
-    .social-media__link {
-      &--facebook {
-        color: #1877F2;
+    &.social-media--brand-colors {
+      .social-media__link {
+        &--facebook {
+          color: #1877F2;
+        }
+        
+        &--instagram {
+          color: #E4405F;
+        }
+        
+        &--twitter {
+          color: #000000;
+        }
+        
+        &--linkedin {
+          color: #0A66C2;
+        }
+        
+        &--youtube {
+          color: #FF0000;
+        }
+        
+        &:hover {
+          opacity: 0.6;
+        }
       }
-      
-      &--instagram {
-        color: #E4405F;
+    }
+    
+    &.social-media--primary-colors {
+      .social-media__link {
+        color: $color-primary;
+        
+        &:hover {
+          opacity: 0.6;
+        }
       }
-      
-      &--twitter {
-        color: #000000;
+    }
+    
+    &.social-media--secondary-colors {
+      .social-media__link {
+        color: $color-secondary;
+        
+        &:hover {
+          opacity: 0.6;
+        }
       }
-      
-      &--linkedin {
-        color: #0A66C2;
-      }
-      
-      &--youtube {
-        color: #FF0000;
-      }
-      
-      &:hover {
-        opacity: 0.6;
+    }
+    
+    &.social-media--tertiary-colors {
+      .social-media__link {
+        color: $color-tertiary;
+        
+        &:hover {
+          opacity: 0.6;
+        }
       }
     }
   }

@@ -47,6 +47,7 @@ function z_gaia_social_media($args = array()) {
   $args = wp_parse_args($args, $defaults);
   
   $icon_style = get_theme_mod('z_gaia_social_icon_style', 'rounded');
+  $icon_colors = get_theme_mod('z_gaia_social_icon_colors', 'brand');
   $networks = z_gaia_get_social_networks();
   
   $has_social = false;
@@ -62,7 +63,12 @@ function z_gaia_social_media($args = array()) {
     return;
   }
   
-  $classes = array('social-media', 'social-media--' . $icon_style);
+  $classes = array(
+    'social-media',
+    'social-media--' . $icon_style,
+    'social-media--' . $icon_colors . '-colors'
+  );
+  
   if (!empty($args['class'])) {
     $classes[] = $args['class'];
   }
