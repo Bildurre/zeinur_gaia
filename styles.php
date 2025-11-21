@@ -1,0 +1,7 @@
+/*
+Theme Name: Z Gaia
+Author: Bildurre
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+*/
