@@ -181,26 +181,32 @@ msgstr "Ancho del Logo (px)"
 msgid "Maximum width for logos"
 msgstr "Ancho máximo para los logos"
 
-msgid "Primary Logo (Light Mode)"
-msgstr "Logo Principal (Modo Claro)"
+msgid "Small Logo Width (px)"
+msgstr "Ancho del Logo Pequeño (px)"
 
-msgid "Main logo for light theme"
-msgstr "Logo principal para tema claro"
+msgid "Maximum width for small logos"
+msgstr "Ancho máximo para los logos pequeños"
 
-msgid "Alternative Logo (Light Mode)"
-msgstr "Logo Alternativo (Modo Claro)"
+msgid "Primary Logo"
+msgstr "Logo Principal"
 
-msgid "Alternative version (e.g., horizontal, small)"
-msgstr "Versión alternativa (ej. horizontal, pequeño)"
+msgid "Main logo for the site"
+msgstr "Logo principal del sitio"
 
-msgid "Primary Logo (Dark Mode)"
-msgstr "Logo Principal (Modo Oscuro)"
+msgid "Primary Logo Alternate"
+msgstr "Logo Principal Alternativo"
 
-msgid "Main logo for dark theme"
-msgstr "Logo principal para tema oscuro"
+msgid "Alternative version of primary logo (e.g., for sticky header, horizontal version)"
+msgstr "Versión alternativa del logo principal (ej. para header fijo, versión horizontal)"
 
-msgid "Alternative Logo (Dark Mode)"
-msgstr "Logo Alternativo (Modo Oscuro)"
+msgid "Small Logo"
+msgstr "Logo Pequeño"
 
-msgid "Alternative version for dark theme"
-msgstr "Versión alternativa para tema oscuro"
+msgid "Compact logo version (e.g., for mobile, footer)"
+msgstr "Versión compacta del logo (ej. para móvil, footer)"
+
+msgid "Small Logo Alternate"
+msgstr "Logo Pequeño Alternativo"
+
+msgid "Alternative version of small logo"
+msgstr "Versión alternativa del logo pequeño"
