@@ -32,6 +32,7 @@ add_action('after_setup_theme', 'z_gaia_load_textdomain');
 require_once Z_GAIA_DIR . '/inc/social-media.php';
 require_once Z_GAIA_DIR . '/inc/colors-helper.php';
 require_once Z_GAIA_DIR . '/inc/logo-helper.php';
+require_once Z_GAIA_DIR . '/inc/typography-helper.php';
 
 /**
  * Include customizer files
@@ -40,6 +41,7 @@ require_once Z_GAIA_DIR . '/inc/customizer/sanitize.php';
 require_once Z_GAIA_DIR . '/inc/customizer/colors.php';
 require_once Z_GAIA_DIR . '/inc/customizer/social-media.php';
 require_once Z_GAIA_DIR . '/inc/customizer/site-identity.php';
+require_once Z_GAIA_DIR . '/inc/customizer/typography.php';
 
 /**
  * Theme setup

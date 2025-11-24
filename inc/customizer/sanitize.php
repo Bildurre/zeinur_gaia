@@ -37,17 +37,26 @@ function z_gaia_sanitize_number($number) {
 }
 
 /**
- * Sanitize number with range
+ * Sanitize number with range (supports decimals)
  * 
- * @param int $number Number to sanitize
+ * @param float $number Number to sanitize
  * @param object $setting The setting object
- * @return int
+ * @return float
  */
 function z_gaia_sanitize_number_range($number, $setting) {
-  $number = absint($number);
+  $number = floatval($number);
+  
   $atts = $setting->manager->get_control($setting->id)->input_attrs;
-  $min = (isset($atts['min']) ? $atts['min'] : $number);
-  $max = (isset($atts['max']) ? $atts['max'] : $number);
-  $step = (isset($atts['step']) ? $atts['step'] : 1);
-  return ($min <= $number && $number <= $max && is_int($number / $step) ? $number : $setting->default);
+  $min = isset($atts['min']) ? floatval($atts['min']) : $number;
+  $max = isset($atts['max']) ? floatval($atts['max']) : $number;
+  
+  // Clamp the value between min and max
+  if ($number < $min) {
+    return $min;
+  }
+  if ($number > $max) {
+    return $max;
+  }
+  
+  return $number;
 }

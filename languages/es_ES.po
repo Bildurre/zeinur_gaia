@@ -210,3 +210,88 @@ msgstr "Logo Pequeño Alternativo"
 
 msgid "Alternative version of small logo"
 msgstr "Versión alternativa del logo pequeño"
+
+# Typography
+msgid "Typography"
+msgstr "Tipografía"
+
+msgid "Base Font Size (px)"
+msgstr "Tamaño Base de Fuente (px)"
+
+msgid "Base font size for body text"
+msgstr "Tamaño base de fuente para el texto del cuerpo"
+
+msgid "Body Line Height"
+msgstr "Altura de Línea del Cuerpo"
+
+msgid "Line height multiplier for body text"
+msgstr "Multiplicador de altura de línea para el texto del cuerpo"
+
+msgid "Heading Line Height"
+msgstr "Altura de Línea de Encabezados"
+
+msgid "Line height multiplier for headings"
+msgstr "Multiplicador de altura de línea para encabezados"
+
+msgid "Font Combination"
+msgstr "Combinación de Fuentes"
+
+msgid "Modern & Clean (Inter / Inter)"
+msgstr "Moderna y Limpia (Inter / Inter)"
+
+msgid "Editorial (Playfair Display / Lora)"
+msgstr "Editorial (Playfair Display / Lora)"
+
+msgid "Classic (EB Garamond / EB Garamond)"
+msgstr "Clásica (EB Garamond / EB Garamond)"
+
+msgid "Elegant (Playfair Display / Inter)"
+msgstr "Elegante (Playfair Display / Inter)"
+
+msgid "Contemporary (Montserrat / Lora)"
+msgstr "Contemporánea (Montserrat / Lora)"
+
+msgid "Professional (Merriweather / Inter)"
+msgstr "Profesional (Merriweather / Inter)"
+
+msgid "Custom - Choose Your Own"
+msgstr "Personalizada - Elige la Tuya"
+
+msgid "Heading Font Family"
+msgstr "Familia de Fuente para Encabezados"
+
+msgid "Only applies when \"Custom\" is selected"
+msgstr "Solo se aplica cuando \"Personalizada\" está seleccionada"
+
+msgid "Body Font Family"
+msgstr "Familia de Fuente para Cuerpo"
+
+msgid "EB Garamond"
+msgstr "EB Garamond"
+
+msgid "Playfair Display"
+msgstr "Playfair Display"
+
+msgid "Inter"
+msgstr "Inter"
+
+msgid "Lora"
+msgstr "Lora"
+
+msgid "Merriweather"
+msgstr "Merriweather"
+
+msgid "Montserrat"
+msgstr "Montserrat"
+
+msgid "Universal (Roboto / Roboto)"
+msgstr "Universal (Roboto / Roboto)"
+
+msgid "Friendly (Open Sans / Open Sans)"
+msgstr "Amigable (Open Sans / Open Sans)"
+
+msgid "Roboto"
+msgstr "Roboto"
+
+msgid "Open Sans"
+msgstr "Open Sans"

@@ -8,9 +8,9 @@ html {
 
 // Base body styles
 body {
-  font-family: $font-family-base;
-  font-size: $font-size-base;
-  line-height: $line-height-normal;
+  font-family: var(--font-family-body, $font-family-base);
+  font-size: var(--font-size-base, $font-size-base);
+  line-height: var(--line-height-body, $line-height-normal);
   color: $color-text;
   background-color: $color-background;
 }
@@ -23,9 +23,9 @@ h4,
 h5,
 h6 {
   color: $color-heading;
-  font-family: $font-family-heading;
+  font-family: var(--font-family-heading, $font-family-heading);
   font-weight: $font-weight-bold;
-  line-height: $line-height-tight;
+  line-height: var(--line-height-heading, $line-height-tight);
 }
 
 h1 {
