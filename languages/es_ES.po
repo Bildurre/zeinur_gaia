@@ -1,0 +1,206 @@
+# Translation file for Z Gaia Theme
+# Copyright (C) 2024 Bildurre
+msgid ""
+msgstr ""
+"Project-Id-Version: Z Gaia 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-01 00:00+0000\n"
+"PO-Revision-Date: 2024-01-01 00:00+0000\n"
+"Last-Translator: Bildurre\n"
+"Language-Team: Spanish\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Menu
+msgid "Primary Menu"
+msgstr "Menú Principal"
+
+# Customizer Sections
+msgid "Theme Colors"
+msgstr "Colores del Tema"
+
+msgid "Social Media"
+msgstr "Redes Sociales"
+
+# Brand Colors
+msgid "Primary Color"
+msgstr "Color Primario"
+
+msgid "Main brand color"
+msgstr "Color principal de marca"
+
+msgid "Secondary Color"
+msgstr "Color Secundario"
+
+msgid "Secondary brand color"
+msgstr "Color secundario de marca"
+
+msgid "Tertiary Color"
+msgstr "Color Terciario"
+
+msgid "Accent color for CTAs and highlights"
+msgstr "Color de acento para CTAs y destacados"
+
+# Text Colors
+msgid "Primary Text Color"
+msgstr "Color de Texto Principal"
+
+msgid "Main text color for body content"
+msgstr "Color principal del texto del contenido"
+
+msgid "Secondary Text Color"
+msgstr "Color de Texto Secundario"
+
+msgid "Color for secondary text, captions, and meta info"
+msgstr "Color para texto secundario, leyendas e información meta"
+
+msgid "Heading Color"
+msgstr "Color de Encabezados"
+
+msgid "Color for headings (h1, h2, h3, etc.)"
+msgstr "Color para encabezados (h1, h2, h3, etc.)"
+
+# Background Colors
+msgid "Background Color"
+msgstr "Color de Fondo"
+
+msgid "Main background color"
+msgstr "Color de fondo principal"
+
+msgid "Secondary Background Color"
+msgstr "Color de Fondo Secundario"
+
+msgid "Alternate background for sections and cards"
+msgstr "Fondo alternativo para secciones y tarjetas"
+
+# Link Colors
+msgid "Link Color"
+msgstr "Color de Enlaces"
+
+msgid "Color for links"
+msgstr "Color para los enlaces"
+
+msgid "Link Hover Color"
+msgstr "Color de Enlaces al Pasar el Ratón"
+
+msgid "Color for links on hover"
+msgstr "Color de los enlaces al pasar el ratón"
+
+# Border Colors
+msgid "Border Color"
+msgstr "Color de Bordes"
+
+msgid "Color for borders and dividers"
+msgstr "Color para bordes y divisores"
+
+# State Colors
+msgid "Success Color"
+msgstr "Color de Éxito"
+
+msgid "Color for success messages and states"
+msgstr "Color para mensajes y estados de éxito"
+
+msgid "Warning Color"
+msgstr "Color de Advertencia"
+
+msgid "Color for warning messages"
+msgstr "Color para mensajes de advertencia"
+
+msgid "Error Color"
+msgstr "Color de Error"
+
+msgid "Color for error messages and states"
+msgstr "Color para mensajes y estados de error"
+
+msgid "Info Color"
+msgstr "Color de Información"
+
+msgid "Color for info messages"
+msgstr "Color para mensajes informativos"
+
+# Social Media Settings
+msgid "Icon Style"
+msgstr "Estilo de Iconos"
+
+msgid "Rounded"
+msgstr "Redondeado"
+
+msgid "Square"
+msgstr "Cuadrado"
+
+msgid "Circle"
+msgstr "Circular"
+
+msgid "Minimal"
+msgstr "Minimalista"
+
+msgid "Icon Colors"
+msgstr "Colores de Iconos"
+
+msgid "Choose which color to use for social media icons"
+msgstr "Elige qué color usar para los iconos de redes sociales"
+
+msgid "Original Brand Colors"
+msgstr "Colores Originales de Marca"
+
+msgid "Theme Primary Color"
+msgstr "Color Primario del Tema"
+
+msgid "Theme Secondary Color"
+msgstr "Color Secundario del Tema"
+
+msgid "Theme Tertiary Color"
+msgstr "Color Terciario del Tema"
+
+# Social Networks
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Twitter / X"
+msgstr "Twitter / X"
+
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+msgid "YouTube"
+msgstr "YouTube"
+
+msgid "URL"
+msgstr "URL"
+
+# Site Identity - Logos
+msgid "Logo Width (px)"
+msgstr "Ancho del Logo (px)"
+
+msgid "Maximum width for logos"
+msgstr "Ancho máximo para los logos"
+
+msgid "Primary Logo (Light Mode)"
+msgstr "Logo Principal (Modo Claro)"
+
+msgid "Main logo for light theme"
+msgstr "Logo principal para tema claro"
+
+msgid "Alternative Logo (Light Mode)"
+msgstr "Logo Alternativo (Modo Claro)"
+
+msgid "Alternative version (e.g., horizontal, small)"
+msgstr "Versión alternativa (ej. horizontal, pequeño)"
+
+msgid "Primary Logo (Dark Mode)"
+msgstr "Logo Principal (Modo Oscuro)"
+
+msgid "Main logo for dark theme"
+msgstr "Logo principal para tema oscuro"
+
+msgid "Alternative Logo (Dark Mode)"
+msgstr "Logo Alternativo (Modo Oscuro)"
+
+msgid "Alternative version for dark theme"
+msgstr "Versión alternativa para tema oscuro"

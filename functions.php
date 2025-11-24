@@ -19,10 +19,19 @@ define('Z_GAIA_DIR', get_template_directory());
 define('Z_GAIA_URI', get_template_directory_uri());
 
 /**
+ * Load text domain for translations
+ */
+function z_gaia_load_textdomain() {
+  load_theme_textdomain('z-gaia', Z_GAIA_DIR . '/languages');
+}
+add_action('after_setup_theme', 'z_gaia_load_textdomain');
+
+/**
  * Include helper files
  */
 require_once Z_GAIA_DIR . '/inc/social-media.php';
 require_once Z_GAIA_DIR . '/inc/colors-helper.php';
+require_once Z_GAIA_DIR . '/inc/logo-helper.php';
 
 /**
  * Include customizer files
@@ -30,6 +39,7 @@ require_once Z_GAIA_DIR . '/inc/colors-helper.php';
 require_once Z_GAIA_DIR . '/inc/customizer/sanitize.php';
 require_once Z_GAIA_DIR . '/inc/customizer/colors.php';
 require_once Z_GAIA_DIR . '/inc/customizer/social-media.php';
+require_once Z_GAIA_DIR . '/inc/customizer/site-identity.php';
 
 /**
  * Theme setup
